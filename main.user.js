@@ -108,5 +108,4 @@ function ScrollPreviewPane(scrollValue)
     return false;
 }
 
-document.addEventListener('keypress', handleKeyPress, true);
 document.addEventListener('keydown', handleKeyPress, true);
